@@ -15,12 +15,51 @@ style: |
     text-align: start;
     margin-bottom: .7rem;
   }
+  section.team h6 {
+    text-align: start;
+    margin-top: 1.6rem;
+  }
+  
+  section.team li {
+    font-size: .64rem;
+    width: 17rem;
+    letter-spacing: .05rem;
+    margin-bottom: .1rem
+  }
+  section.team li strong {
+    margin-right: .6rem;
+    width: 6rem;
+    display: inline-block;
+  }
+  section.mod li {
+    font-size: .62rem
+  }
+  section.team h2{
+    font-size:30px;
+    margin-top:-30px;
+  }
+  section.team h3{
+    text-align:start;
+    font-size:1rem;
+  }
+  section.team,section.module{
+    display:block;
+  }
+  section.team h4{
+    text-align:start;
+    font-size:30px
+  }
+  section.team h5{
+    text-align:start;
+    font-size:30px;
+    margin-top:-20px;
+  }
   section.lead h1 {
-    text-align: center;
+    text-align: start;
     font-size: 1.5rem;
   }
   section.lead p {
-    text-align:center;
+    text-align:start;
     font-size: .9rem;
   }
   section.ref p {
@@ -42,12 +81,28 @@ style: |
     bottom: -6%;
     left: 0;
   }
-  section.sys h2{
-    font-size:.9rem;
-    text-align:start;
+  section.spec {
+   display: block;
+   padding-top: 1.6rem
   }
-  section.module,section.sys{
-    display:block;
+  section.spec h6 {
+    text-align: start;
+    margin-top: 1rem;
+  }
+  section.spec li {
+    font-size: .64rem;
+    width: 16rem;
+    letter-spacing: .05rem;
+    margin-bottom: .1rem;
+    margin-top:.5rem;
+  }
+  section.spec li strong {
+    margin-right: .6rem;
+    width: 5rem;
+    display: inline-block;
+  }
+  section.module li{
+    margin-top:1rem
   }
   section.moduleDec{
     display:block;
@@ -56,12 +111,22 @@ style: |
     font-size: .7rem;
   }
 ---
+<!-- _class: team -->
+# ERODE ARTS AND SCIENCE COLLEGE
+## AUTONOMOUS
+###### Team Members
 
+- **SIVAPRASATH R** B.Sc Computer Science
+- **SURYA  S** B.Sc Computer Science
+
+###### Guide
+
+- **Mrs. DIVYA .M** ASSISTANT PROFESSOR <br> &nbsp;&nbsp; [ B.Sc CS ]
+---
 <!-- _class: lead -->
-
+![bg brightness:1.1 left:30%](https://firebasestorage.googleapis.com/v0/b/annoncement-annocer.appspot.com/o/App_logo.png?alt=media&token=edeeeb25-d322-412b-814f-d94ec0b5c3a4)
 
 <!-- https://) -->
-
 # Announcement Annoncer
 
 A specialized information sharing app crafted for EASC students!.
@@ -122,38 +187,20 @@ A specialized information sharing app crafted for EASC students!.
 
 ---
 
-<!-- _class: sys -->
-# SYSTEM REQUIREMENTS
+<!-- _class: spec -->
+# System Specifications
+###### Hardware Specifications
+- **Processor :** AMD A4-4350B
+- **RAM :** 4GB DDR4
+###### Software Specifications
+- **Platform/OS :** Android 8+
 
-## HARDWARE CONFIGURATION
-- Processor  :AMD A4-4350B
-
-- RAM : 4GB DDR4
-## SOFTWARE SPECIFICATION
-
-- **Operating system:** Android
-
-- **Front-End:** React Native
+- **Front-End :** React Native
 
 - **Back-End:** Node js / Express js
 
 - **Database:** Mongodb / Firebase
 
----
-
-<!-- _class: ref -->
-
-# References
-
-- The primary resource for Announcement Annoncer user interface development is the official documentation for [React Native](https://), offering comprehensive guides and tutorials for building cross-platform mobile applications.
-
-- For the logical foundation of Announcement Annoncer, the project relies on [React](https://) documentation, which provides in-depth insights into React's declarative and efficient JavaScript library for building user interfaces.
-
-- Explore [Mongodb](https://) and [firebase](http://) an open-source and freemium backend service chosen for Announcement Annoncer, providing  database management and scalability.
-
-- Announcement Annoncer streamlines development using [Expo](https://), which offers powerful tools and libraries for React Native app deployment, enhancing the overall development experience.
-
-- [NPM](https://) serves as the package manager for Announcement Annoncer dependencies, facilitating the efficient installation and management of JavaScript packages.
 
 ---
 <!-- _class: module -->
@@ -199,4 +246,4 @@ A specialized information sharing app crafted for EASC students!.
 
 - **Node js** Get and Post method,Request and Response handling,Handlebars,V8 JavaScript engine,ENV and Advance concept in [Nodejs Docs](https://nodejs.org/docs/latest/api/) Last Published: Jan 2024.
 ---
-# THANK YOU..
+# THANK YOU!..
